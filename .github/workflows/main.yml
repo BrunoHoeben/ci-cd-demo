@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ci-cd-demo/test.yml
+        uses: ci-cd-demo/test
         with:
           who-to-greet: 'Bruno'
       # Use the output from the `hello` step
