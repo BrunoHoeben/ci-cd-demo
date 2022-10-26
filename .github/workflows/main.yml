@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: BrunoHoeben/ci-cd-demo
+        uses: Dockerfile
         with:
           who-to-greet: 'Bruno'
       # Use the output from the `hello` step
