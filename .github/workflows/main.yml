@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: ci-cd-demo/test
+        uses: BrunoHoeben/ci-cd-demo
         with:
           who-to-greet: 'Bruno'
       # Use the output from the `hello` step
